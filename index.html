@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McGill University's Oral Medicine Residency Program</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Histological & Natural Pattern Simulation using pure CSS overlays */
+        .histo-bg {
+            background-color: #ffffff;
+            background-image: radial-gradient(#f1f5f9 2px, transparent 2px), radial-gradient(#f8fafc 2px, #ffffff 2px);
+            background-size: 32px 32px;
+            background-position: 0 0, 16px 16px;
+        }
+        .organic-gradient {
+            background: linear-gradient(135deg, #4c0519 0%, #881337 50%, #9f1239 100%);
+        }
+        .canadian-accent {
+            border-top: 4px solid #e11d48;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="histo-bg text-slate-900 font-sans antialiased">
+
+    <!-- Legal Disclaimer Notice Bar (IP Protection) -->
+    <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 text-center border-b border-slate-800">
+        <p><strong>Legal Notice:</strong> This portal is an independent academic, clinical, and resident-led educational showcase. It is not an official platform of, or legally binding publication by, the McGill University Board of Governors or the McGill University Health Centre (MUHC).</p>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <nav class="bg-white/95 backdrop-blur sticky top-0 z-50 shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <!-- Stylized Leaf/Cell Icon -->
+                    <div class="bg-rose-700 text-white p-2.5 rounded-xl shadow-md">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m2.828-9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block text-lg font-bold text-slate-950 tracking-tight leading-none">McGill University's</span>
+                        <span class="block text-sm font-semibold text-rose-700 tracking-wide uppercase mt-1">Oral Medicine Residency</span>
+                    </div>
+                </div>
+                <div class="hidden lg:flex items-center space-x-8 text-sm font-medium">
+                    <a href="#definition" class="text-slate-600 hover:text-rose-700 transition">Scope of Practice</a>
+                    <a href="#sites" class="text-slate-600 hover:text-rose-700 transition">Clinical Framework</a>
+                    <a href="#leadership" class="text-slate-600 hover:text-rose-700 transition">Faculty & Cohort</a>
+                    <a href="#consultation" class="bg-rose-50 text-rose-800 px-4 py-2 rounded-lg hover:bg-rose-100 transition font-semibold">E-Consultation</a>
+                    <a href="#subscribe" class="bg-rose-800 text-white px-4 py-2 rounded-lg hover:bg-rose-900 transition font-semibold shadow-sm">Case Registry</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Rich Hero Section with Natural/Histological Themes -->
+    <header class="organic-gradient text-white relative overflow-hidden py-32 px-4">
+        <!-- Abstract Structural Background Layers -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none mix-blend-overlay bg-repeat" style="background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'60\' height=\'60\' viewBox=\'0 0 60 60\'%3E%3Cpath d=\'M30 0 L60 30 L30 60 L0 30 Z\' fill=\'none\' stroke=\'%23ffffff\' stroke-width=\'1\'%3E%3C/path%3E%3C/svg%3E');"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10 space-y-6">
+            <div class="inline-flex items-center space-x-2 bg-rose-500/20 text-rose-200 text-xs font-bold px-4 py-1.5 rounded-full border border-rose-400/30 tracking-wider uppercase backdrop-blur-sm">
+                <span>🇨🇦 Advanced Canadian Specialization Portal</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-tight">
+                Academic Excellence in <br class="hidden md:block"/><span class="text-rose-200">Clinical Oral Medicine</span>
+            </h1>
+            <p class="text-lg md:text-xl text-rose-100/90 font-light max-w-2xl mx-auto leading-relaxed">
+                An advanced multidisciplinary hospital dental residency showcasing specialized healthcare across Quebec's premier clinical networks.
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#definition" class="w-full sm:w-auto bg-white text-rose-950 font-bold px-8 py-3.5 rounded-xl hover:bg-rose-50 transition shadow-lg text-center">Explore the Canadian Scope</a>
+                <a href="#consultation" class="w-full sm:w-auto bg-rose-700/60 border border-rose-400/40 text-white font-bold px-8 py-3.5 rounded-xl hover:bg-rose-600 transition backdrop-blur-sm text-center">Inter-Professional Triage</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- The Canadian Scope of Practice Definition Section -->
+    <section id="definition" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-5 space-y-6">
+                <div class="flex items-center space-x-2">
+                    <span class="w-8 h-0.5 bg-rose-600"></span>
+                    <span class="text-xs font-bold tracking-widest text-rose-700 uppercase">Distinct Clinical Mandate</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-950 tracking-tight">What is Oral Medicine in Canada?</h2>
+                <p class="text-slate-600 leading-relaxed text-base">
+                    In Canada, Oral Medicine functions under a broader, more integrated medical framework than its United States counterparts. It bridges dentistry, pathology, and systemic internal medicine to provide full regional diagnostic and therapeutic intervention.
+                </p>
+                <div class="bg-slate-50 border-l-4 border-rose-700 p-5 rounded-r-xl">
+                    <p class="text-sm text-slate-700 italic leading-relaxed">
+                        "The Canadian scope explicitly defines the specialty as encompassing advanced therapeutics for complex mucosal anomalies, systemic pathodynamic manifestations, regional neuro-vascular disorders, and full cross-disciplinary diagnostic medicine."
+                    </p>
+                </div>
+            </div>
+
+            <!-- Interactive Clinical Scope Cards Grid -->
+            <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative group hover:border-rose-200 transition">
+                    <div class="text-rose-700 mb-4 bg-rose-50 w-12 h-12 flex items-center justify-center rounded-xl font-bold text-lg">01</div>
+                    <h3 class="font-bold text-slate-950 text-lg mb-2">Orofacial Pain Management</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Comprehensive tracking and treatment of chronic non-odontogenic pain matrices, neurovascular disorders, and advanced temporomandibular structural complications.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative group hover:border-rose-200 transition">
+                    <div class="text-rose-700 mb-4 bg-rose-50 w-12 h-12 flex items-center justify-center rounded-xl font-bold text-lg">02</div>
+                    <h3 class="font-bold text-slate-950 text-lg mb-2">Dental Sleep Medicine</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Multidisciplinary design and monitoring protocols for oral appliance therapies managing obstructive sleep apnea (OSA) and systemic sleep fragmentation patterns.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative group hover:border-rose-200 transition">
+                    <div class="text-rose-700 mb-4 bg-rose-50 w-12 h-12 flex items-center justify-center rounded-xl font-bold text-lg">03</div>
+                    <h3 class="font-bold text-slate-950 text-lg mb-2">Mucosal Pathology</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Histological analysis, diagnostic monitoring, and immunomodulatory therapeutic programs for chronic, infectious, auto-immune, and pre-malignant oral mucosal conditions.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative group hover:border-rose-200 transition">
+                    <div class="text-rose-700 mb-4 bg-rose-50 w-12 h-12 flex items-center justify-center rounded-xl font-bold text-lg">04</div>
+                    <h3 class="font-bold text-slate-950 text-lg mb-2">Salivary & Systemic Care</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Clinical management of salivary gland hyper/hypofunction, xerostomia pathodynamics, and oral manifestations of complex systemic chemotherapy or radiotherapy regimens.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Training Sites Framework Section -->
+    <section id="sites" class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5 pointer-events-none bg-center bg-cover" style="background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'40\' fill=\'none\' stroke=\'%23ffffff\' stroke-width=\'2\'%3E%3C/circle%3E%3C/svg%3E');"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl mx-auto text-center mb-16 space-y-4">
+                <span class="text-xs font-bold tracking-widest text-rose-400 uppercase block">Rotational Infrastructure</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Primary Clinical Foundations</h2>
+                <p class="text-slate-400 text-sm md:text-base">Our residency cohort actively rotates through premier regional hospital hubs and specialized clinics to deliver complete tertiary care.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- MGH Card -->
+                <div class="bg-slate-800/60 border border-slate-700/60 p-8 rounded-2xl space-y-4 hover:bg-slate-800 transition">
+                    <div class="bg-rose-950 text-rose-300 w-10 h-10 flex items-center justify-center rounded-lg font-bold text-sm">MGH</div>
+                    <h3 class="text-xl font-bold">Montreal General Hospital</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Focusing on complex acute consultations for advanced oral mucosal diseases, complex biopsy workflows, structural bone updates, and integrated inter-disciplinary emergency diagnostic rounds.</p>
+                </div>
+
+                <!-- MUHC Glen Site Card -->
+                <div class="bg-slate-800/60 border border-slate-700/60 p-8 rounded-2xl space-y-4 hover:bg-slate-800 transition">
+                    <div class="bg-rose-950 text-rose-300 w-10 h-10 flex items-center justify-center rounded-lg font-bold text-sm">MUHC</div>
+                    <h3 class="text-xl font-bold">MUHC's Glen Site</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Integrating active hospital clinical rotations alongside specialized surgical teams, oncology networks, and systemic outpatient therapy centers tracking multi-organ pathology.</p>
+                </div>
+
+                <!-- Orofacial Pain Clinic Card -->
+                <div class="bg-slate-800/60 border border-slate-700/60 p-8 rounded-2xl space-y-4 hover:bg-slate-800 transition">
+                    <div class="bg-rose-950 text-rose-300 w-10 h-10 flex items-center justify-center rounded-lg font-bold text-sm">OFP</div>
+                    <h3 class="text-xl font-bold">Faculty of Dentistry's Orofacial Pain Clinic</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Dedicated exclusively to advanced neural profiling, specialized physical therapy monitoring, temporomandibular joint evaluation, and structural phantom pain diagnostic models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty & Resident Roster Section -->
+    <section id="leadership" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 space-y-2">
+            <span class="text-xs font-bold tracking-widest text-rose-700 uppercase block">Academic Roster</span>
+            <h2 class="text-3xl font-bold text-slate-950 tracking-tight">Program Faculty & Cohort</h2>
+        </div>
+
+        <!-- Directors -->
+        <div class="mb-16">
+            <h3 class="text-lg font-bold text-rose-900 mb-6 border-b border-rose-100 pb-2">Program Leadership</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h4 class="text-lg font-bold text-slate-950">Dr. Firoozeh Samim</h4>
+                    <p class="text-xs font-semibold text-rose-700 uppercase tracking-wider mb-2">Program Director | Oral Pathologist & Oral Medicine Specialist</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">Leading expert specializing in advanced diagnostic histopathology, complex immunological mucosal monitoring, and inter-professional academic development.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h4 class="text-lg font-bold text-slate-950">Dr. Gilles Lavigne</h4>
+                    <p class="text-xs font-semibold text-rose-700 uppercase tracking-wider mb-2">Program Director</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">Internationally recognized pioneer tracking neurogenic chronic patterns, clinical sleep apnea mechanics, and advanced pharmacological safety structures.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Residents Grid Split -->
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-md font-bold text-slate-800 mb-4 border-b border-slate-100 pb-2">Senior Residents (R2)</h3>
+                <div class="space-y-4">
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-bold text-slate-950 text-sm">Dr. Aia Naksho</h4>
+                        <p class="text-xs text-rose-700 font-medium">Senior Resident</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-bold text-slate-950 text-sm">Dr. Zaneta Ivy D'Souza</h4>
+                        <p class="text-xs text-rose-700 font-medium">Senior Resident</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-md font-bold text-slate-800 mb-4 border-b border-slate-100 pb-2">First-Year Cohort (R1)</h3>
+                <div class="space-y-4">
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-bold text-slate-950 text-sm">Dr. Bahy Shaheen Ahmed</h4>
+                        <p class="text-xs text-rose-700 font-medium">Resident & Lead Web Administrator</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-bold text-slate-950 text-sm">Dr. Elahe Akbari</h4>
+                        <p class="text-xs text-rose-700 font-medium">Resident</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-bold text-slate-950 text-sm">Dr. Carlos Santana Carlot</h4>
+                        <p class="text-xs text-rose-700 font-medium">Resident</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Two-Column Rich Functional Interactive Features (Consultation & Subscriptions) -->
+    <section class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12">
+            
+            <!-- Online Consultation Form Portal -->
+            <div id="consultation" class="lg:col-span-7 bg-white p-8 rounded-3xl shadow-sm border border-slate-200/80 space-y-6">
+                <div class="space-y-2">
+                    <span class="text-xs font-bold bg-rose-50 text-rose-800 px-3 py-1 rounded-md inline-block">Inter-Professional Communication</span>
+                    <h3 class="text-2xl font-bold text-slate-950 tracking-tight">Clinical E-Consultation Request</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Medical practitioners and dental professionals can securely submit preliminary case summaries for regional clinical triage or educational review by the residency cohort.</p>
+                </div>
+                
+                <form class="space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Practitioner Name</label>
+                            <input type="text" class="w-full border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-600" placeholder="Dr. John O'Neill, DDS">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Professional License ID</label>
+                            <input type="text" class="w-full border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-600" placeholder="ODQ #######">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Clinical Domain of Inquiry</label>
+                        <select class="w-full border border-slate-200 rounded-lg p-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-600">
+                            <option>Mucosal Pathology / Lesion Review</option>
+                            <option>Chronic Orofacial Pain Profile</option>
+                            <option>Dental Sleep Medicine Triage</option>
+                            <option>Temporomandibular Structural Analysis</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Anonymized Case Summary</label>
+                        <textarea rows="4" class="w-full border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-600" placeholder="Please describe clinical presentation, symptoms, duration, and relevant history without including patient-identifying data..."></textarea>
+                    </div>
+                    <div class="flex items-start space-x-2 text-xs text-slate-500 bg-slate-50 p-3 rounded-lg border border-slate-100">
+                        <input type="checkbox" class="mt-0.5 rounded text-rose-700 focus:ring-rose-500" required id="hipaa"/>
+                        <label for="hipaa" class="leading-tight select-none">I confirm this description contains completely anonymized clinical text satisfying all regional health confidentiality guidelines and privacy criteria.</label>
+                    </div>
+                    <button type="button" class="w-full bg-rose-800 hover:bg-rose-900 text-white font-bold py-3 rounded-xl transition shadow-md text-sm">Submit Case File for Triage</button>
+                </form>
+            </div>
+
+            <!-- Registry Case Subscription Portal -->
+            <div id="subscribe" class="lg:col-span-5 bg-gradient-to-b from-slate-900 to-slate-950 text-white p-8 rounded-3xl shadow-xl flex flex-col justify-between relative overflow-hidden">
+                <div class="absolute inset-0 opacity-10 pointer-events-none bg-repeat bg-center" style="background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'40\' height=\'40\' viewBox=\'0 0 40 40\'%3E%3Cpath d=\'M0 0 H20 V20 H0 Z\' fill=\'none\' stroke=\'%23ffffff\' stroke-width=\'1\'%3E%3C/path%3E%3C/svg%3E');"></div>
+                
+                <div class="space-y-6 relative z-10">
+                    <span class="text-xs font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30 px-3 py-1 rounded-md inline-block">Monthly Review Subscriptions</span>
+                    <h3 class="text-2xl font-bold tracking-tight">The Canadian Oral Medicine Registry</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Join our digital mailing list to receive verified, resident-compiled clinical data blocks, rare histological breakdown summaries, and Canadian diagnostic updates directly to your academic inbox.
+                    </p>
+                    
+                    <ul class="space-y-3 text-xs text-slate-300">
+                        <li class="flex items-center space-x-2">
+                            <span class="text-rose-400 font-bold text-base">✓</span>
+                            <span>Anonymized Canadian Case Studies</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="text-rose-400 font-bold text-base">✓</span>
+                            <span>Orofacial Pain Diagnostic Methods</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="text-rose-400 font-bold text-base">✓</span>
+                            <span>Regional Clinical Update Briefings</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="space-y-3 pt-8 relative z-10">
+                    <div>
+                        <label class="block text-xs font-medium text-slate-400 mb-1">Academic Email Address</label>
+                        <input type="email" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-rose-500/40 focus:border-rose-500" placeholder="name@university.ca">
+                    </div>
+                    <button type="button" class="w-full bg-rose-700 hover:bg-rose-600 text-white font-bold py-2.5 rounded-lg transition text-sm shadow-md">Subscribe to Case Registry</button>
+                    <p class="text-center text-[10px] text-slate-500">Zero tracking or marketing spam. Instant unsubscription tools provided.</p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Comprehensive Intellectual Property & Academic Footer -->
+    <footer class="bg-slate-950 text-slate-400 text-xs py-12 px-4 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-12 gap-8 items-start">
+            <div class="md:col-span-5 space-y-4">
+                <span class="block font-bold text-white text-sm">Intellectual Property Disclaimer & Compliance Statement</span>
+                <p class="leading-relaxed text-slate-500">
+                    This portal operates purely as an open-access, independent informational index compiled and managed solely by the Oral Medicine resident cohort. It contains no proprietary clinical data, trademarked operational materials, or protected health records owned by McGill University or the McGill University Health Centre administration. 
+                </p>
+                <p class="text-slate-600">
+                    &copy; 2026 Canadian Oral Medicine Residency Tracker. Built independently for academic progress metrics.
+                </p>
+            </div>
+            <div class="md:col-span-4 space-y-2">
+                <span class="block font-bold text-white text-sm">Rotational Affiliation Reference</span>
+                <ul class="space-y-1 text-slate-500">
+                    <li>• Montreal General Hospital (MGH Outpatient Network)</li>
+                    <li>• McGill University Health Centre (The Glen Facility Site)</li>
+                    <li>• Faculty of Dental Medicine & Oral Health Sciences Orofacial Pain Division</li>
+                </ul>
+            </div>
+            <div class="md:col-span-3 space-y-2">
+                <span class="block font-bold text-white text-sm">Specialty Standards</span>
+                <p class="leading-relaxed text-slate-500">
+                    Content structures conform entirely to the professional scope requirements maintained across Canadian provincial licensing colleges.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
